@@ -61,7 +61,7 @@ var getUnanswered = function(tags) {
     });
 };
 
-// STEP 2 (getInspiration) - using the input from the user (query) make the API call to get the JSON response
+// STEP 2 (getInspiration) - using input from the user (query) make the API call to get the JSON response
 var getInspiration = function(tag) {
     var url = "http://api.stackexchange.com/2.2/tags/" + tag + "/top-answerers/all_time";
     var request = {
